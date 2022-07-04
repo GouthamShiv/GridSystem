@@ -16,16 +16,16 @@ struct HorizontalGrid: View {
     //        GridItem(.fixed(100)),
     //    ]
     
-    let rows = [
-        GridItem(.adaptive(minimum: 60))
-    ]
-    
-    //    let columns = [
-    //        GridItem(.flexible()),
-    //        GridItem(.flexible()),
-    //        GridItem(.flexible()),
-    //        GridItem(.flexible()),
+    //    let rows = [
+    //        GridItem(.adaptive(minimum: 60))
     //    ]
+    
+    let rows = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+    ]
     
     //    let columns = [
     //        GridItem(.fixed(150)),
