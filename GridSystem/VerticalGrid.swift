@@ -9,10 +9,14 @@ import SwiftUI
 
 struct VerticalGrid: View {
     let items = (0...200)
+//    let columns = [
+//        GridItem(.fixed(100)),
+//        GridItem(.fixed(100)),
+//        GridItem(.fixed(100)),
+//    ]
+    
     let columns = [
-        GridItem(.fixed(100)),
-        GridItem(.fixed(100)),
-        GridItem(.fixed(100)),
+        GridItem(.adaptive(minimum: 60))
     ]
     
     var body: some View {
