@@ -19,11 +19,16 @@ struct VerticalGrid: View {
 //        GridItem(.adaptive(minimum: 60))
 //    ]
     
+//    let columns = [
+//        GridItem(.flexible()),
+//        GridItem(.flexible()),
+//        GridItem(.flexible()),
+//        GridItem(.flexible()),
+//    ]
+    
     let columns = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible()),
+        GridItem(.fixed(150)),
+        GridItem(.adaptive(minimum: 60))
     ]
 
     var body: some View {
