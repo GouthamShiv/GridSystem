@@ -12,6 +12,7 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 NavigationLink("Vertical Grid", destination: VerticalGrid())
+                NavigationLink("Horizontal Grid", destination: HorizontalGrid())
             }
             .navigationTitle("Lazy Grid")
         }
