@@ -15,10 +15,17 @@ struct VerticalGrid: View {
 //        GridItem(.fixed(100)),
 //    ]
     
-    let columns = [
-        GridItem(.adaptive(minimum: 60))
-    ]
+//    let columns = [
+//        GridItem(.adaptive(minimum: 60))
+//    ]
     
+    let columns = [
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+        GridItem(.flexible()),
+    ]
+
     var body: some View {
         ScrollView {
             LazyVGrid(columns: columns, content: {
