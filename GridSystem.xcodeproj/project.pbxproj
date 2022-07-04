@@ -11,6 +11,7 @@
 		6DB649CE287355DC00044DE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB649CD287355DC00044DE7 /* ContentView.swift */; };
 		6DB649D0287355DE00044DE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB649CF287355DE00044DE7 /* Assets.xcassets */; };
 		6DB649D3287355DE00044DE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DB649D2287355DE00044DE7 /* Preview Assets.xcassets */; };
+		6DB649DC2873585A00044DE7 /* VerticalGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DB649DB2873585A00044DE7 /* VerticalGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6DB649CD287355DC00044DE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6DB649CF287355DE00044DE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DB649D2287355DE00044DE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6DB649DB2873585A00044DE7 /* VerticalGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,9 @@
 		6DB649CA287355DC00044DE7 /* GridSystem */ = {
 			isa = PBXGroup;
 			children = (
-				6DB649CB287355DC00044DE7 /* GridSystemApp.swift */,
 				6DB649CD287355DC00044DE7 /* ContentView.swift */,
+				6DB649CB287355DC00044DE7 /* GridSystemApp.swift */,
+				6DB649DB2873585A00044DE7 /* VerticalGrid.swift */,
 				6DB649CF287355DE00044DE7 /* Assets.xcassets */,
 				6DB649D1287355DE00044DE7 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				6DB649CE287355DC00044DE7 /* ContentView.swift in Sources */,
 				6DB649CC287355DC00044DE7 /* GridSystemApp.swift in Sources */,
+				6DB649DC2873585A00044DE7 /* VerticalGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
