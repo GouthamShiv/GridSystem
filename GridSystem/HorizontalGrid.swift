@@ -20,17 +20,17 @@ struct HorizontalGrid: View {
     //        GridItem(.adaptive(minimum: 60))
     //    ]
     
-    let rows = [
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-        GridItem(.flexible()),
-    ]
-    
-    //    let columns = [
-    //        GridItem(.fixed(150)),
-    //        GridItem(.adaptive(minimum: 60))
+    //    let rows = [
+    //        GridItem(.flexible()),
+    //        GridItem(.flexible()),
+    //        GridItem(.flexible()),
+    //        GridItem(.flexible()),
     //    ]
+    
+    let rows = [
+        GridItem(.fixed(150)),
+        GridItem(.adaptive(minimum: 60))
+    ]
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
