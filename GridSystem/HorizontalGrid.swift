@@ -10,15 +10,15 @@ import SwiftUI
 struct HorizontalGrid: View {
     let items = (0...200)
     
-    let rows = [
-        GridItem(.fixed(100)),
-        GridItem(.fixed(100)),
-        GridItem(.fixed(100)),
-    ]
-    
-    //    let columns = [
-    //        GridItem(.adaptive(minimum: 60))
+    //    let rows = [
+    //        GridItem(.fixed(100)),
+    //        GridItem(.fixed(100)),
+    //        GridItem(.fixed(100)),
     //    ]
+    
+    let rows = [
+        GridItem(.adaptive(minimum: 60))
+    ]
     
     //    let columns = [
     //        GridItem(.flexible()),
